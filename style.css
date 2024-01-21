@@ -32,8 +32,8 @@ body, html {
 /*===== CSS VARIABLES =====*/
 :root {
   --header-height: 3rem;
-  --first-color: #3664F4;
-  --dark-color: #070D1F;
+  --first-color: #4b4253;
+  --dark-color: #000000;
   --dark-color-alt: #282B3A;
   --white-color: #E6E7E9;
   --body-font: 'Poppins', sans-serif;
@@ -141,6 +141,7 @@ img {
   grid-template-rows: -webkit-max-content 1fr -webkit-max-content;
   grid-template-rows: max-content 1fr max-content;
   row-gap: 2rem;
+  margin-top: 5px;
 }
 
 .nav_close {
@@ -153,6 +154,7 @@ img {
   cursor: pointer;
 }
 
+/*
 .nav_img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -167,14 +169,13 @@ img {
   background-color: var(--first-color);
   border-radius: 50%;
   overflow: hidden;
-}
+}*/
 
 .nav_img img {
   width: 46px;
 }
 
 .nav_name {
-  display: block;
   color: var(--white-color);
 }
 
@@ -189,7 +190,7 @@ img {
 }
 
 .nav_list {
-    margin-top: 8px;;
+  margin-top: 12px;
 }
 
 .nav_item {
@@ -201,7 +202,7 @@ img {
 }
 
 .nav_social {
-  padding-top: .5rem;
+  padding-top: .8rem;
 }
 
 .nav_social-icon {
@@ -254,15 +255,16 @@ img {
     -ms-flex-align: center;
     align-items: center;
   }
+  /*
   .nav_img {
     width: 32px;
     height: 32px;
     margin-right: .5rem;
     margin-bottom: 0;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
+    -ms-flex-align: center;
+    align-items: center;
+  }*/
   .nav_img img {
     width: 26px;
   }
