@@ -9,23 +9,41 @@
 </head>
 
 <body>
-    <section>
-        <div id="header">
-            <h1>Hi, I'm Lydia</h1>
-            <p>This is my personal website.</p>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Sidebar</h2>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="#"><i class="fas fa-user"></i>Profile</a></li>
+                <li><a href="#"><i class="fas fa-address-card"></i>About</a></li>
+                <li><a href="#"><i class="fas fa-project-diagram"></i>portfolio</a></li>
+                <li><a href="#"><i class="fas fa-blog"></i>Blogs</a></li>
+                <li><a href="#"><i class="fas fa-address-book"></i>Contact</a></li>
+                <li><a href="#"><i class="fas fa-map-pin"></i>Map</a></li>
+            </ul> 
+            <div class="social_media">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
         </div>
-    </section>    
 
-    <div id="spline">
-        <iframe src='https://my.spline.design/personalwebsite-92876e3314875e2100d7c7d685cc7a24/' frameborder='0' width='100%' height='100%'></iframe>
+        <div class="main_content">
+            <section>
+                <div id="header">
+                    <h1>Hi, I'm Lydia</h1>
+                    <p>This is my personal website.</p>
+                </div>
+            </section>    
+            
+            <div class="info">
+                <div class="spline">
+                    <iframe src='https://my.spline.design/personalwebsite-92876e3314875e2100d7c7d685cc7a24/' frameborder='0' width='100%' height='100%'></iframe>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <footer>
-        <p>Github</p>
-        <p>LinkedIn</p>
-        <p>Email</p>
-    </footer>
-        
+            
     <script src="https://unpkg.com/split-type"></script>
     <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
     <script src="script.js"></script>
