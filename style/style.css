@@ -30,6 +30,10 @@ p {
     color: #33397e;
 }
 
+.social_media a{
+    text-underline-offset: 100px;
+}
+
 h1, p {
     text-align: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
@@ -91,6 +95,7 @@ h1, p {
     left: 50%;
     transform: translateX(-50%);
     display: flex;
+    color: #f3f5f9;
   }
   
   .wrapper .sidebar .social_media a{
@@ -101,14 +106,14 @@ h1, p {
     line-height: 45px;
     text-align: center;
     margin: 0 5px;
-    color: #bdb8d7;
+    color: white;
     border-radius: 5px;
     margin-bottom: 20px;
   }
-  
+    
   .main_content{
     height: 100%;
-    margin-left: 80px; /*Distance to the sidebar*/
+    margin-left: 50px; /*Distance to the sidebar*/
   }
     
   .wrapper .main_content .info .spline{
