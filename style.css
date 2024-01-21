@@ -8,14 +8,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-iframe {
-    display: flex;
-    justify-content: center;
+#spline {
     width: 100%;
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    right: 0;
+    height: 100%;
 }
 
 h1 {
