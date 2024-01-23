@@ -22,12 +22,24 @@ div h1 {
     font-family: 'Playfair Display';
     font-weight: bold;
     color: #1c2243;
+    font-size: 2rem;
+}
+
+#header {
+  text-align: center;
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+}
+
+#colortext{
+  color: #1c2243;
 }
 
 p {
-    font-family: 'Playfair Display';
-    font-size: 1.6rem;
-    color: #33397e;
+  font-family: 'Playfair Display';
+  font-size: 1.6rem;
+  color: #33397e;
+  font-size: 1.5rem;
 }
 
 .social_media a{
