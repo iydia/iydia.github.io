@@ -9,8 +9,8 @@ html {
 
 /* Animation Setup */
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #AFAFE8;
+  font-family: 'Poppins', sans-serif;
+  background-color: #AFAFE8;
 }
 
 section, #header {
@@ -26,33 +26,37 @@ div h1 {
 }
 
 #header {
-  height: 100%;
-  text-align: center;
-  max-width: 800px; /* Adjust the max-width as needed */
-  margin-left: 350px;
-  display:flex;
+  display: flex;
   justify-content: center;
-  flex-wrap:wrap;
+  margin-top: -250px;
+  height: 100vh;
+  width: 800px;
+  background-color: #AFAFE8;
+  flex-direction: column;
+  margin-left: 200px; /*Distance to the sidebar*/
 }
 
 #colortext{
+  font-family: 'Playfair Display';
   color: #1c2243;
 }
 
 p {
-  font-family: 'Playfair Display';
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   font-size: 1.6rem;
   color: #33397e;
-  font-size: 1.5rem;  
 }
 
 .social_media a{
-    text-underline-offset: 100px;
+  text-underline-offset: 100px;
 }
 
 h1, p {
-    text-align: center;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
 /*Sidebar*/
@@ -129,13 +133,13 @@ h1, p {
     
   .main_content{
     height: 100%;
-    margin-left: 60px; /*Distance to the sidebar*/
+    margin-left: 100px; /*Distance to the sidebar*/
   }
     
   .wrapper .main_content .info .spline{
     display: flex;
     justify-content: left;
-    margin-top: -20px;
+    margin-top: -250px;
     height: 100vh;
     width: 100vw;
     background-color: #AFAFE8;
