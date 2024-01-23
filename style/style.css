@@ -11,7 +11,6 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #AFAFE8;
-    overflow: hidden; /* Prevent scrollbars */
 }
 
 section, #header {
@@ -27,8 +26,9 @@ div h1 {
 
 #header {
   text-align: center;
-  max-width: 1000px; /* Adjust the max-width as needed */
+  max-width: 800px; /* Adjust the max-width as needed */
   margin: 0 auto;
+  margin-left: 250px;
 }
 
 #colortext{
@@ -125,14 +125,84 @@ h1, p {
     
   .main_content{
     height: 100%;
-    margin-left: 50px; /*Distance to the sidebar*/
+    margin-left: 60px; /*Distance to the sidebar*/
   }
     
   .wrapper .main_content .info .spline{
     display: flex;
     justify-content: left;
     margin-top: -20px;
-    height: 120vh;
-    width: 120vw;
+    height: 100vh;
+    width: 100vw;
     background-color: #AFAFE8;
   }
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+#resume{
+  height: 50%;
+  width: 80%;
+}
+
+.resume{
+  margin: 50px 0px 50px 210px;
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
