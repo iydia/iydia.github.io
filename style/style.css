@@ -18,17 +18,21 @@ section, #header {
 }
 
 div h1 {
-    font-family: 'Playfair Display';
-    font-weight: bold;
-    color: #1c2243;
-    font-size: 2rem;
+  font-family: 'Playfair Display';
+  font-weight: bold;
+  color: #1c2243;
+  font-size: 2rem;
+  display: flex;
 }
 
 #header {
+  height: 100%;
   text-align: center;
   max-width: 800px; /* Adjust the max-width as needed */
-  margin: 0 auto;
-  margin-left: 250px;
+  margin-left: 350px;
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
 }
 
 #colortext{
@@ -39,7 +43,7 @@ p {
   font-family: 'Playfair Display';
   font-size: 1.6rem;
   color: #33397e;
-  font-size: 1.5rem;
+  font-size: 1.5rem;  
 }
 
 .social_media a{
